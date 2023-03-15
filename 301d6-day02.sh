@@ -1,6 +1,6 @@
 #!/bin/bash
 #Ops301d6: Code Challenge-01
-
+# Date: 14 Mar 2023
 #Author: Justin 'Sage' Tabios
 
 #Purpose: Copies /var/log/syslog to the current working directory
