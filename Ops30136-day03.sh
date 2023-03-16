@@ -1,10 +1,8 @@
-#Ops301d6: Code Challenge-01
+#Ops301d6: Code Challenge-03
 
 #Author: Justin 'Sage' Tabios
 
 #Purpose: 
-
-#referred to ChatGPT to frame the scripts
 # Prompts user for input directory path
 #!/bin/bash
 
@@ -21,8 +19,8 @@ fi
 echo "Please enter a permissions number (e.g. 755): "
 read permissions
 
-if [[ $permissions =~ ^[0-7]{3}$ ]]; then
-  chmod $permissions /path/to/file/or/directory
+if [[ $permissions =~ ^[0-9]+$ ]]; then
+  chmod $permissions  ./test
   echo "Permissions set to $permissions"
 else
   echo "Invalid permissions number"
@@ -38,10 +36,12 @@ read permissions
 
 if [[ $permissions =~ ^[0-7]{3}$ ]] && [ -d "$dir_path" ]; then
   cd "$dir_path"
-  find . -type f -exec chmod $permissions {} +
+  find . -type f -exec chmod $permissions {.} +
   echo "Permissions set to $permissions for all files in $dir_path"
 else
   echo "Invalid input"
 fi
 
 # Prints to the screen the directory contents and the new perissions settings of settings of everything in the directory.
+
+# Shoutout Ademola for getting his script to work on my lab pc! 
