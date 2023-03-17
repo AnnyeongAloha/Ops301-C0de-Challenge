@@ -1,3 +1,15 @@
+# Ops301: Code Challenge Day 04 
+
+# Author: Justin 'Sage' Tabios
+# Date: 16 Mar 2023
+# Referred to ChatGPT for the framework of script
+#Purpose: Create a bash script file that launches a menu system with the following options: 
+    # Hello world (prints "Hello world!" to the screen)
+    # Ping self (pings this computer)
+    # IP info
+    # Exit
+
+    
 #!/bin/bash
 
 while true; do
