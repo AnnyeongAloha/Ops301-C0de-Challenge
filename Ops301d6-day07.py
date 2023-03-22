@@ -19,5 +19,12 @@ for (root, dirs, files) in os.walk(path):
     print("Files: ", files)
     
     
- 
+# Saves output as a .txt file
+
+# Script opens the .txt file with Libre Office Writer
+
+# Add a Function to Python script that as a first step to prepare a test directory
+# Takes a user input string
+# Creates a directoryt named the string using os.makdirs function
+# Create sub-directories within the directory names 'string_01','string_02','string_03'
 # End
