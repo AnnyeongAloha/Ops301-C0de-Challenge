@@ -25,8 +25,8 @@ a >= b
 if a == b:
     print(a and b are equal)
     elif a > b 
-    print(a is greater than b)
+    print("a is greater than b")
     elif a != b
-    print(a is not b, Son!)
+    print("a is not b, Son!")
 else:
     print("GTFO!")
