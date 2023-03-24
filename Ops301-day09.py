@@ -1,6 +1,6 @@
 # Ops301 Code Challenge day09 
 
-# Author: Justin 'Sage' Tabios
+# author: Justin 'Sage' Tabios
 
 # Date of revision: 23 Mar 2023
 
@@ -10,23 +10,37 @@
 
 # Define variables 
 
-a = 66 
-b = 666 
+ouid = 66 
+booze = 666 
 
-a == b 
-a != b
-a < b
-a <= b
-a > b 
-a >= b 
+# ouid == booze 
+# ouid != booze
+# ouid < booze
+# ouid <= booze
+# ouid > booze 
+# ouid >= booze 
 
 # Create if statements and print information to the screen depending on conditions met
 
-if a == b:
-    print(a and b are equal)
-    elif a > b 
-    print("a is greater than b")
-    elif a != b
-    print("a is not b, Son!")
+if ouid == booze:
+    print(ouid and booze are equal)
+    elif ouid > god 
+        print("ouid is greater than booze")
+    elif ouid != booze
+        print("ouid is not booze, Son!")
+    elif ouid < booze
+        print("ouid is less than booze")
+    elif ouid <= booze
+        print("ouid is less than booze but not greater than booze"
+    elif ouid > booze 
+        print("ouid is greater than booze")
+    elif ouid >= booze
+        print("ouid is greater but not less than booze") 
 else:
     print("GTFO!")
+if a == b and c != d: 
+    print("you clown")
+
+
+Groceries = ["ouid", "booze", "pong table", "pizza"]
+print(Groceries[0])
